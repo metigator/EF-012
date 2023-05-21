@@ -101,6 +101,16 @@ CREATE TABLE Instructors (
 ```
 
 ##### + Schedules Table :department_store:
+<div style="padding: 10px; font-size: 10px; font-weight: bold">
+| Id | Title        | SUN | MON | TUE | WED | THU | FRI | SAT |
+|----|--------------|-----|-----|-----|-----|-----|-----|-----|
+| 1  | Daily        |  :heavy_check_mark:   |   :heavy_check_mark:  |   :heavy_check_mark:  |   :heavy_check_mark:  |   :heavy_check_mark:  |     |     |   
+| 1  | DayAfterDay  |  :heavy_check_mark:   |     |    :heavy_check_mark: |     |  :heavy_check_mark:   |     |     |  
+| 1  | Twice-a-Week |     |   :heavy_check_mark:  |     |  :heavy_check_mark:   |     |     |     |  
+| 1  | Weekend      |     |     |     |     |     |  :heavy_check_mark:   |  :heavy_check_mark:   |  
+| 1  | Compact      |  :heavy_check_mark:   | :heavy_check_mark:    | :heavy_check_mark:    |  :heavy_check_mark:   | :heavy_check_mark:    |  :heavy_check_mark:   |   :heavy_check_mark:  |  
+</div>
+
 
 ``` sql
 -- Schedules Table
