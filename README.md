@@ -141,7 +141,7 @@ CREATE TABLE Schedules
 
 | Id | Course Name    | Section Name   | Instructor Name  | ScheduleTitle | Start Time | End Time | SUN | MON | TUE | WED | THU | FRI | SAT |
 |----|----------------|----------------|------------------|---------------|------------|----------|-----|-----|-----|-----|-----|-----|-----|
-| 1  | Mathematics    |    S_MA1       | Ahmed Abdullah   |  DayAfterDay  | 10:00:00   | 12:00:00 |  :heavy_check_mark:  |  :heavy_check_mark: |  :heavy_check_mark:  |  :heavy_check_mark:  |:heavy_check_mark:  |    |    |
+| 1  | Mathematics    |    S_MA1       | Ahmed Abdullah   |  DayAfterDay  | 10:00:00   | 12:00:00 |  :heavy_check_mark:  |  :heavy_check_mark: |  :heavy_check_mark:  |  :heavy_check_mark:  |:heavy_check_mark:  
 | 2  | Mathematics    |    S_MA2       | Yasmeen Mohammed |  Twice-a-Week | 14:00:00   | 16:00:00 |    |  :heavy_check_mark:  |    |  :heavy_check_mark:  |    |    |    |
 | 3  | Physics        |    S_PH1       | Ahmed Abdullah   |  Weekend      | 16:00:00   | 18:00:00 |    |    |    |    |    |  :heavy_check_mark:  |  :heavy_check_mark:  |
 | 4  | Physics        |    S_PH2       | Khalid Hassan    |  Daily        | 08:00:00   | 10:00:00 |  :heavy_check_mark:  |  :heavy_check_mark:  |  :heavy_check_mark:  |  :heavy_check_mark:  |  :heavy_check_mark:  |    |    |
