@@ -102,13 +102,15 @@ CREATE TABLE Instructors (
 
 ##### + Schedules Table :department_store:
 <div style="padding: 10px; font-size: 10px; font-weight: bold">
+
 | Id | Title        | SUN | MON | TUE | WED | THU | FRI | SAT |
 |----|--------------|-----|-----|-----|-----|-----|-----|-----|
-| 1  | Daily        |  :heavy_check_mark:   |   :heavy_check_mark:  |   :heavy_check_mark:  |   :heavy_check_mark:  |   :heavy_check_mark:  |   x  |   x  |   
-| 1  | DayAfterDay  |  :heavy_check_mark:   |  x   |    :heavy_check_mark: |  x   |  :heavy_check_mark:   |  x   |  x   |  
-| 1  | Twice-a-Week |   x  |   :heavy_check_mark:  |  x   |  :heavy_check_mark:   |  x   |  x   |   x  |  
-| 1  | Weekend      |   x  | x    | x    | x    |  x   |  :heavy_check_mark:   |  :heavy_check_mark:   |  
-| 1  | Compact      |  :heavy_check_mark:   | :heavy_check_mark:    | :heavy_check_mark:    |  :heavy_check_mark:   | :heavy_check_mark:    |  :heavy_check_mark:   |   :heavy_check_mark:  |  
+| 1  | Daily        |  :heavy_check_mark:   |   :heavy_check_mark:  |   :heavy_check_mark:  |   :heavy_check_mark:  |   :heavy_check_mark:  |    |     |   
+| 2  | DayAfterDay  |  :heavy_check_mark:   |    |    :heavy_check_mark: |    |  :heavy_check_mark:   |    |    |  
+| 3  | Twice-a-Week |    |   :heavy_check_mark:  |    |  :heavy_check_mark:   |     |    |   |  
+| 4  | Weekend      |     |    |    |    |    |  :heavy_check_mark:   |  :heavy_check_mark:   |  
+| 5  | Compact      |  :heavy_check_mark:   | :heavy_check_mark:    | :heavy_check_mark:    |  :heavy_check_mark:   | :heavy_check_mark:    |  :heavy_check_mark:   |   :heavy_check_mark:  |  
+
 </div>
 
 
