@@ -99,8 +99,10 @@ CREATE TABLE Instructors (
     INSERT INTO Instructors (Id, Name, OfficeId) VALUES (5, 'Omar Ibrahim', 5);
 
 ```
+
 ##### + Schedules Table :department_store:
 
+``` sql
 -- Schedules Table
 CREATE TABLE Schedules
 (
