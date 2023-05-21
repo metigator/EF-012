@@ -186,7 +186,7 @@ CREATE TABLE Sections (
     INSERT INTO Sections (Id, SectionName, CourseId, InstructorId, ScheduleId, StartTime, EndTime) VALUES (9, 'S_CS1', 5, 4, 4, '16:00:00', '18:00:00');
     INSERT INTO Sections (Id, SectionName, CourseId, InstructorId, ScheduleId, StartTime, EndTime) VALUES (10,'S_CS2', 5, 5, 3, '12:00:00', '15:00:00');
     INSERT INTO Sections (Id, SectionName, CourseId, InstructorId, ScheduleId, StartTime, EndTime) VALUES (11,'S_CS3', 5, 4, 5, '09:00:00', '11:00:00');
-
+```
 
 #### + Student Enrollment :man: :girl:
 
