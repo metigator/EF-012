@@ -192,18 +192,18 @@ CREATE TABLE Sections (
 
 <div style="padding: 10px; font-size: 10px; font-weight: bold">
 
-| Section Name | Student Name   |
-|--------------|----------------|
-| S_MA2        | Fatima Ali     |
-| S_MA2        | Noor Saleh     |
-| S_PH1        | Omar Youssef   |
-| S_PH1        | Huda Ahmed     |
-| S_PH2        | Amira Tariq    |
-| S_PH2        | Zainab Ismail  |
-| S_BI1        | Yousef Farid   |
-| S_BI1        | Layla Mustafa  |
-| S_CS1        | Mohammed Adel  |
-| S_CS2        | Samira Nabil   |
+| Section Name | FName | LName   |
+|--------------|-------|---------|
+| S_MA2        | Fatima| Ali     |
+| S_MA2        | Noor |Saleh     |
+| S_PH1        | Omar| Youssef   |
+| S_PH1        | Huda| Ahmed     |
+| S_PH2        | Amira| Tariq    |
+| S_PH2        | Zainab |Ismail  |
+| S_BI1        | Yousef| Farid   |
+| S_BI1        | Layla| Mustafa  |
+| S_CS1        | Mohammed| Adel  |
+| S_CS2        | Samira| Nabil   |
 
 </div>
 
@@ -212,20 +212,21 @@ CREATE TABLE Sections (
 -- Students Table
 CREATE TABLE Students (
     Id INT PRIMARY KEY,
-    Name VARCHAR(255) NOT NULL,
+    FName VARCHAR(255) NOT NULL,
+    LName VARCHAR(255) NOT NULL,
 );
 
     -- Inserting data for Students
-    INSERT INTO Students (Id, Name) VALUES (1, 'Fatima Ali');
-    INSERT INTO Students (Id, Name) VALUES (2, 'Noor Saleh');
-    INSERT INTO Students (Id, Name) VALUES (3, 'Omar Youssef');
-    INSERT INTO Students (Id, Name) VALUES (4, 'Huda Ahmed');
-    INSERT INTO Students (Id, Name) VALUES (5, 'Amira Tariq');
-    INSERT INTO Students (Id, Name) VALUES (6, 'Zainab Ismail');
-    INSERT INTO Students (Id, Name) VALUES (7, 'Yousef Farid');
-    INSERT INTO Students (Id, Name) VALUES (8, 'Layla Mustafa');
-    INSERT INTO Students (Id, Name) VALUES (9, 'Mohammed Adel');
-    INSERT INTO Students (Id, Name) VALUES (10, 'Samira Nabil');
+    INSERT INTO Students (Id, FName, LName) VALUES (1, 'Fatima', 'Ali');
+    INSERT INTO Students (Id, FName, LName) VALUES (2, 'Noor', 'Saleh');
+    INSERT INTO Students (Id, FName, LName) VALUES (3, 'Omar', 'Youssef');
+    INSERT INTO Students (Id, FName, LName) VALUES (4, 'Huda', 'Ahmed');
+    INSERT INTO Students (Id, FName, LName) VALUES (5, 'Amira', 'Tariq');
+    INSERT INTO Students (Id, FName, LName) VALUES (6, 'Zainab', 'Ismail');
+    INSERT INTO Students (Id, FName, LName) VALUES (7, 'Yousef', 'Farid');
+    INSERT INTO Students (Id, FName, LName) VALUES (8, 'Layla', 'Mustafa');
+    INSERT INTO Students (Id, FName, LName) VALUES (9, 'Mohammed', 'Adel');
+    INSERT INTO Students (Id, FName, LName) VALUES (10, 'Samira', 'Nabil');
 
 
 -- Enrollments Table
