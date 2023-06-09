@@ -192,18 +192,18 @@ CREATE TABLE Sections (
 
 <div style="padding: 10px; font-size: 10px; font-weight: bold">
 
-| Section Name | FName | LName   |
-|--------------|-------|---------|
-| S_MA2        | Fatima| Ali     |
-| S_MA2        | Noor |Saleh     |
-| S_PH1        | Omar| Youssef   |
-| S_PH1        | Huda| Ahmed     |
-| S_PH2        | Amira| Tariq    |
-| S_PH2        | Zainab |Ismail  |
-| S_BI1        | Yousef| Farid   |
-| S_BI1        | Layla| Mustafa  |
-| S_CS1        | Mohammed| Adel  |
-| S_CS2        | Samira| Nabil   |
+| Section Name | Student Name   |
+|--------------|----------------|
+| S_MA2        | Fatima Ali     |
+| S_MA2        | Noor Saleh     |
+| S_PH1        | Omar Youssef   |
+| S_PH1        | Huda Ahmed     |
+| S_PH2        | Amira Tariq    |
+| S_PH2        | Zainab Ismail  |
+| S_BI1        | Yousef Farid   |
+| S_BI1        | Layla Mustafa  |
+| S_CS1        | Mohammed Adel  |
+| S_CS2        | Samira Nabil   |
 
 </div>
 
